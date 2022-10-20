@@ -23,6 +23,7 @@
 }
 
 .body-item {
+	width: 30%;
 	max-width: 400px;
 	margin: 25px;
 }
@@ -54,6 +55,10 @@
 	.body-container {
 		flex-wrap: wrap;
 		padding: 20px 0px;
+	}
+
+	.body-item {
+		width: 100%;		
 	}
 
 	.header {
